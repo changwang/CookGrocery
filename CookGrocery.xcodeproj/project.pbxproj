@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F330C313E205860098A5A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F330C213E205860098A5A1 /* UIKit.framework */; };
+		04F330C513E205860098A5A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F330C413E205860098A5A1 /* Foundation.framework */; };
+		04F330C713E205860098A5A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F330C613E205860098A5A1 /* CoreGraphics.framework */; };
+		04F330C913E205860098A5A1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F330C813E205860098A5A1 /* CoreData.framework */; };
+		04F330CF13E205860098A5A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F330CD13E205860098A5A1 /* InfoPlist.strings */; };
+		04F330D213E205860098A5A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F330D113E205860098A5A1 /* main.m */; };
+		04F330D513E205860098A5A1 /* CookGroceryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F330D413E205860098A5A1 /* CookGroceryAppDelegate.m */; };
+		04F330D813E205860098A5A1 /* CookGrocery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04F330D613E205860098A5A1 /* CookGrocery.xcdatamodeld */; };
+		04F330DC13E205860098A5A1 /* CookGroceryAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F330DB13E205860098A5A1 /* CookGroceryAppDelegate_iPhone.m */; };
+		04F330DF13E205860098A5A1 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F330DD13E205860098A5A1 /* MainWindow_iPhone.xib */; };
+		04F330E313E205860098A5A1 /* CookGroceryAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F330E213E205860098A5A1 /* CookGroceryAppDelegate_iPad.m */; };
+		04F330E613E205860098A5A1 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F330E413E205860098A5A1 /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F330BE13E205860098A5A1 /* CookGrocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookGrocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F330C213E205860098A5A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04F330C413E205860098A5A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04F330C613E205860098A5A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04F330C813E205860098A5A1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04F330CC13E205860098A5A1 /* CookGrocery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookGrocery-Info.plist"; sourceTree = "<group>"; };
+		04F330CE13E205860098A5A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04F330D013E205860098A5A1 /* CookGrocery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CookGrocery-Prefix.pch"; sourceTree = "<group>"; };
+		04F330D113E205860098A5A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F330D313E205860098A5A1 /* CookGroceryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CookGroceryAppDelegate.h; sourceTree = "<group>"; };
+		04F330D413E205860098A5A1 /* CookGroceryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookGroceryAppDelegate.m; sourceTree = "<group>"; };
+		04F330D713E205860098A5A1 /* CookGrocery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CookGrocery.xcdatamodel; sourceTree = "<group>"; };
+		04F330DA13E205860098A5A1 /* CookGroceryAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CookGroceryAppDelegate_iPhone.h; path = iPhone/CookGroceryAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		04F330DB13E205860098A5A1 /* CookGroceryAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CookGroceryAppDelegate_iPhone.m; path = iPhone/CookGroceryAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		04F330DE13E205860098A5A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		04F330E113E205860098A5A1 /* CookGroceryAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CookGroceryAppDelegate_iPad.h; path = iPad/CookGroceryAppDelegate_iPad.h; sourceTree = "<group>"; };
+		04F330E213E205860098A5A1 /* CookGroceryAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CookGroceryAppDelegate_iPad.m; path = iPad/CookGroceryAppDelegate_iPad.m; sourceTree = "<group>"; };
+		04F330E513E205860098A5A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F330BB13E205860098A5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F330C313E205860098A5A1 /* UIKit.framework in Frameworks */,
+				04F330C513E205860098A5A1 /* Foundation.framework in Frameworks */,
+				04F330C713E205860098A5A1 /* CoreGraphics.framework in Frameworks */,
+				04F330C913E205860098A5A1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F330B313E205860098A5A1 = {
+			isa = PBXGroup;
+			children = (
+				04F330CA13E205860098A5A1 /* CookGrocery */,
+				04F330C113E205860098A5A1 /* Frameworks */,
+				04F330BF13E205860098A5A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F330BF13E205860098A5A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F330BE13E205860098A5A1 /* CookGrocery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F330C113E205860098A5A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F330C213E205860098A5A1 /* UIKit.framework */,
+				04F330C413E205860098A5A1 /* Foundation.framework */,
+				04F330C613E205860098A5A1 /* CoreGraphics.framework */,
+				04F330C813E205860098A5A1 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04F330CA13E205860098A5A1 /* CookGrocery */ = {
+			isa = PBXGroup;
+			children = (
+				04F330D313E205860098A5A1 /* CookGroceryAppDelegate.h */,
+				04F330D413E205860098A5A1 /* CookGroceryAppDelegate.m */,
+				04F330D613E205860098A5A1 /* CookGrocery.xcdatamodeld */,
+				04F330D913E205860098A5A1 /* iPhone */,
+				04F330E013E205860098A5A1 /* iPad */,
+				04F330CB13E205860098A5A1 /* Supporting Files */,
+			);
+			path = CookGrocery;
+			sourceTree = "<group>";
+		};
+		04F330CB13E205860098A5A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F330CC13E205860098A5A1 /* CookGrocery-Info.plist */,
+				04F330CD13E205860098A5A1 /* InfoPlist.strings */,
+				04F330D013E205860098A5A1 /* CookGrocery-Prefix.pch */,
+				04F330D113E205860098A5A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F330D913E205860098A5A1 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				04F330DA13E205860098A5A1 /* CookGroceryAppDelegate_iPhone.h */,
+				04F330DB13E205860098A5A1 /* CookGroceryAppDelegate_iPhone.m */,
+				04F330DD13E205860098A5A1 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		04F330E013E205860098A5A1 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				04F330E113E205860098A5A1 /* CookGroceryAppDelegate_iPad.h */,
+				04F330E213E205860098A5A1 /* CookGroceryAppDelegate_iPad.m */,
+				04F330E413E205860098A5A1 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F330BD13E205860098A5A1 /* CookGrocery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F330E913E205860098A5A1 /* Build configuration list for PBXNativeTarget "CookGrocery" */;
+			buildPhases = (
+				04F330BA13E205860098A5A1 /* Sources */,
+				04F330BB13E205860098A5A1 /* Frameworks */,
+				04F330BC13E205860098A5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookGrocery;
+			productName = CookGrocery;
+			productReference = 04F330BE13E205860098A5A1 /* CookGrocery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F330B513E205860098A5A1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 04F330B813E205860098A5A1 /* Build configuration list for PBXProject "CookGrocery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04F330B313E205860098A5A1;
+			productRefGroup = 04F330BF13E205860098A5A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F330BD13E205860098A5A1 /* CookGrocery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F330BC13E205860098A5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F330CF13E205860098A5A1 /* InfoPlist.strings in Resources */,
+				04F330DF13E205860098A5A1 /* MainWindow_iPhone.xib in Resources */,
+				04F330E613E205860098A5A1 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F330BA13E205860098A5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F330D213E205860098A5A1 /* main.m in Sources */,
+				04F330D513E205860098A5A1 /* CookGroceryAppDelegate.m in Sources */,
+				04F330D813E205860098A5A1 /* CookGrocery.xcdatamodeld in Sources */,
+				04F330DC13E205860098A5A1 /* CookGroceryAppDelegate_iPhone.m in Sources */,
+				04F330E313E205860098A5A1 /* CookGroceryAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F330CD13E205860098A5A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F330CE13E205860098A5A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04F330DD13E205860098A5A1 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F330DE13E205860098A5A1 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		04F330E413E205860098A5A1 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F330E513E205860098A5A1 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F330E713E205860098A5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F330E813E205860098A5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04F330EA13E205860098A5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookGrocery/CookGrocery-Prefix.pch";
+				INFOPLIST_FILE = "CookGrocery/CookGrocery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04F330EB13E205860098A5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookGrocery/CookGrocery-Prefix.pch";
+				INFOPLIST_FILE = "CookGrocery/CookGrocery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F330B813E205860098A5A1 /* Build configuration list for PBXProject "CookGrocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F330E713E205860098A5A1 /* Debug */,
+				04F330E813E205860098A5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F330E913E205860098A5A1 /* Build configuration list for PBXNativeTarget "CookGrocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F330EA13E205860098A5A1 /* Debug */,
+				04F330EB13E205860098A5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04F330D613E205860098A5A1 /* CookGrocery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04F330D713E205860098A5A1 /* CookGrocery.xcdatamodel */,
+			);
+			currentVersion = 04F330D713E205860098A5A1 /* CookGrocery.xcdatamodel */;
+			path = CookGrocery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04F330B513E205860098A5A1 /* Project object */;
+}
